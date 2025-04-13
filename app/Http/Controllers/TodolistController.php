@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\services\TodolistService;
+use App\Services\TodolistService;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 

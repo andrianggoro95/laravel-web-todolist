@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use App\services\Impl\TodolistServiceImpl;
-use App\services\TodolistService;
+use App\Services\Impl\TodolistServiceImpl;
+use App\Services\TodolistService;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Support\DeferrableProvider;
 

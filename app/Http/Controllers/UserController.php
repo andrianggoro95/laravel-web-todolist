@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\services\UserService;
+use App\Services\UserService;
 use Illuminate\Http\Response;
 use Illuminate\Http\RedirectResponse;
 

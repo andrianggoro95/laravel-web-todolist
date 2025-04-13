@@ -8,17 +8,19 @@ use Tests\TestCase;
 
 class HomeControllerTest extends TestCase
 {
-    public function testHomePageGuest()
+    public function testGuest()
     {
         $this->get('/')
-            ->assertRedirect('/login');
+            ->assertRedirect("/login");
     }
 
-    public function testHomePageMember()
+    public function testMember()
     {
         $this->withSession([
-            'user' => 'admin'
+            "user" => "khannedy"
         ])->get('/')
-            ->assertRedirect('/todolist');
+            ->assertRedirect("/todolist");
     }
+
+
 }
